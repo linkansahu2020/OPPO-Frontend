@@ -1,0 +1,30 @@
+{
+  "Cart": [
+    {
+      "title": "OPPO Enco X wirelessHeadphones",
+      "imgurl": "https://opsg-img-cdn-gl.heytapimg.com/epb/202112/06/9ZFQFNDtXDZqBJlE.jpg",
+      "price": 9990,
+      "len": 2,
+      "orignial_price": 19000
+    },
+    {
+      "title": "OPPO Enco X wirelessHeadphones",
+      "imgurl": "https://opsg-img-cdn-gl.heytapimg.com/epb/202203/11/ktjAZGPwTWmISWQq.jpg",
+      "price": 1456,
+      "len": 1,
+      "orignial_price": 19000
+    }
+  ],
+  "UserInfo": [
+    {
+      "Name": "sammith",
+      "Phonenumber": "8197717473",
+      "HouseNumber": "#50 7th cross ",
+      "AreaNo": "Rajajinagr",
+      "Pin": "568007",
+      "City": "Bengaluru",
+      "State": "Karnataka",
+      "id": 1
+    }
+  ]
+}

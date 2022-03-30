@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.first_div {
+  background-color: #fafafa;
+}
+/* body {
+  background-color: #fafafa;
+} */
+.main_continer_div {
+  /* border: 2px solid red; */
+  width: 85%;
+  margin: auto;
+}
+.check_out_text_div > h1 {
+  text-align: center;
+}
+
+.check_out_text_div {
+  /* border: 2px solid green; */
+}
+.inside_shipping_add_div {
+  /* border: 2px solid yellow; */
+  width: 96%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+.shipping_add_div {
+  border: 2px solid transparent; /*needed*/
+  background-color: #ffffff;
+}
+/* .first_h3 {
+  float: left;
+}
+.second_button {
+  float: right;
+} */
+.address_box_div {
+  /* border: 1px solid green; */
+  background-color: #f9fdfa;
+  border-radius: 8px;
+  padding: 25px;
+  width: 40%;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.Billing_address {
+  /* border: 2px solid yellow; */
+  background-color: #ffffff;
+  margin-top: 20px;
+  height: 80px;
+}
+.billings_tags {
+  margin-left: 15px;
+  margin-top: 35px;
+}
+
+.shipping_charg_div {
+  margin-top: 20px;
+  border: 2px solid transparent; /* needed*/
+  background-color: #ffffff;
+}
+.shipping_charg_div > h3 {
+  padding: 25px;
+}
+.priority_div {
+  border: 1px solid green; /* needed*/
+  background-color: #f9fdfa;
+  border-radius: 8px;
+  margin-left: 25px;
+  padding: 20px;
+  width: 40%;
+  margin-bottom: 20px;
+}
+.inside_priority_div_one {
+  color: #54cd69;
+}
+.priority_div > div {
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-between;
+}
+/* .coupon_card_div > h3 {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.coupon_card_div > button {
+  margin-left: 85%;
+  margin-bottom: 20px;
+  width: 150px;
+} */
+.coupon_card_div {
+  border: 2px solid transparent; /*needed*/
+  background-color: #ffffff;
+  margin-top: 25px;
+  height: 80px;
+}
+.coupon_card_div > div {
+  width: 96%;
+  margin: auto;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.Total_item_div {
+  /* border: 2px solid red; */
+  background-color: #ffffff;
+  margin-top: 25px;
+  height: 180px;
+}
+.Total_item_div > div {
+  /* border: 2px solid red; */
+  width: 96%;
+  margin: auto;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.Main_order_div {
+  /* border: 2px solid red; */
+  background-color: #ffffff;
+  margin-top: 30px;
+}
+.Order_summary_text {
+  margin: 25px;
+}
+.each_order_item_div {
+  /* border: 2px solid firebrick; */
+  display: flex;
+  margin-top: 2px;
+}
+.img_and_title_div {
+  /* border: 2px solid green; */
+  flex: 0.7;
+  display: flex;
+}
+.img_and_title_div > div {
+  /* border: 2px solid yellow; */
+  margin-left: 40px;
+  margin-top: 25px;
+}
+.price_totlength_div {
+  /* border: 2px solid yellow; */
+  flex: 0.5;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.price_color {
+  color: #36ca61;
+}
+.footer_total_div {
+  overflow: hidden;
+  /* border: 2px solid red; */
+  background-color: #fafafa;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 145px;
+}
+.footer_total_div_one {
+  width: 100%;
+  height: 145px;
+}
+
+.term_and_police {
+  /* border: 2px solid yellow; */
+  width: 39%;
+  margin-left: 850px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.bottom_total_button_div {
+  /* border: 2px solid green; */
+  height: 80px;
+  margin-left: 1030px;
+  width: 25%;
+  display: flex;
+  margin-top: 5px;
+  /* text-align: center; */
+}
+.bottom_total_button_div > div {
+  margin: auto;
+}
+.order_butt {
+  width: 170px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #54cd69;
+  color: white;
+}
+
+/******************************************/
+
+.popups {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.innerpopup > h2 {
+  text-align: center;
+}
+.innerpopup > button {
+  float: right;
+}
+.innerpopup {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+.form_input {
+  /* border: 2px solid red; */
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+}
+.form_input > input {
+  width: 90%;
+  padding: 10px;
+  margin: 12px;
+}
+.form_div {
+  display: flex;
+}
+.form_div > input {
+  width: 42%;
+  padding: 10px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.form_input > h6 {
+  margin-left: 15px;
+}
+
+.save_button {
+  background-color: #54cd69;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
