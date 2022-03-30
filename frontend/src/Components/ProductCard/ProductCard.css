@@ -1,0 +1,39 @@
+.main{
+    width: 24%;
+    background-color: white;
+}
+.image{
+    height: 313px;
+    width: 313px;
+    object-fit: cover;
+}
+.infoDiv{
+    /* border: 1px solid red; */
+    /* width: 313px; */
+    padding: 5%;
+    text-align: left;
+    /* background-color: white; */
+}
+.title{
+    font-size: 20px;
+}
+.offer{
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 12px;
+    width: 6vmin;
+    color: #2ec84e;
+    background-color: rgb(15, 143, 41, 0.12);
+    border-radius: 4px;
+}
+.price{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.oPrice{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: line-through;
+    color: rgb(160, 160, 160);
+}
