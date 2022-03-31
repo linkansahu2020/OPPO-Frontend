@@ -1,6 +1,7 @@
 import "../checkout.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import {useNavigate} from "react-router-dom"
 
 // console.log(num);
 export const CheckOutPage = () => {
@@ -16,6 +17,7 @@ export const CheckOutPage = () => {
   });
   const [cart_item, setCart_item] = useState([]);
   const [useraddress, setUseraddress] = useState([]);
+  const navigate=useNavigate();
 
   useEffect(() => {
     getCartdata();
@@ -35,9 +37,9 @@ export const CheckOutPage = () => {
     });
   };
 
-  let x = 0;
+  let sum = 0;
   for (let i = 0; i < cart_item.length; i++) {
-    x += cart_item[i].price;
+    sum += cart_item[i].price;
   }
 
   const evnthandler = (e) => {
@@ -142,7 +144,7 @@ export const CheckOutPage = () => {
         </div>
         <div className="shipping_add_div">
           <div className="inside_shipping_add_div">
-            <h3 className="first_h3">Shippign Address</h3>
+            <h3 className="first_h3">Shipping Address</h3>
             <button
               onClick={() => {
                 document.getElementsByClassName("popups")[0].style.display =
@@ -158,7 +160,7 @@ export const CheckOutPage = () => {
             <div className="address_box_div">
               <span>{`${el.Name},`}</span> <span>{`${el.City},`}</span>
               <br />
-              <span>{el.Phonenumber}</span>
+              <span>{`Tel:+91 ${el.Phonenumber}`}</span>
             </div>
           ))}
         </div>
@@ -219,7 +221,7 @@ export const CheckOutPage = () => {
         <div className="coupon_card_div">
           <div>
             <h3>Coupon</h3>
-            <button>
+            <button className="butt">
               <h4> No coupon is available</h4>
             </button>
           </div>
@@ -228,7 +230,7 @@ export const CheckOutPage = () => {
         <div className="Total_item_div">
           <div>
             <h3>Item Subtotal </h3>
-            <h4>{`₹${x}`} </h4>
+            <h4>{`₹${sum}`} </h4>
           </div>
 
           <div>
@@ -241,7 +243,7 @@ export const CheckOutPage = () => {
           </div>
           <div>
             <h3>Total </h3>
-            <h2>{`₹${x}`} </h2>
+            <h2>{`₹${sum}`} </h2>
           </div>
         </div>
         <div className="">
@@ -269,11 +271,13 @@ export const CheckOutPage = () => {
         </div>
         <div className="bottom_total_button_div">
           <div>
-            <h2> {`Total ₹${x}`}</h2>
+            <h2> {`Total ₹${sum}`}</h2>
             <h4>Save 0</h4>
           </div>
           <div>
-            <button className="order_butt">Place Order</button>
+            <button onClick={()=>{
+              navigate("/payment")
+            }} className="order_butt">Place Order</button>
           </div>
         </div>
       </div>

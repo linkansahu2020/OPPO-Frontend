@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
 .first_div {
   background-color: #fafafa;
 }
@@ -35,10 +38,21 @@
 }
 /* .first_h3 {
   float: left;
+}*/
+.butt {
+  background-color: transparent;
+  border: none;
+}
+.close_button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 .second_button {
-  float: right;
-} */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 .address_box_div {
   /* border: 1px solid green; */
   background-color: #f9fdfa;
@@ -108,17 +122,15 @@
   justify-content: space-between;
 }
 .Total_item_div {
-  /* border: 2px solid red; */
+  border: 2px solid transparent; /*needed*/
   background-color: #ffffff;
   margin-top: 25px;
-  height: 180px;
 }
 .Total_item_div > div {
   /* border: 2px solid red; */
   width: 96%;
-  margin: auto;
   display: flex;
-  margin-top: 20px;
+  margin: 40px;
   justify-content: space-between;
 }
 
