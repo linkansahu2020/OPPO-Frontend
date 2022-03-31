@@ -17,11 +17,11 @@
 .title{
     font-size: 20px;
 }
-.offer{
+.offer_card{
     margin-top: 10px;
     padding: 5px;
     font-size: 12px;
-    width: 6vmin;
+    width: 8vmin;
     color: #2ec84e;
     background-color: rgb(15, 143, 41, 0.12);
     border-radius: 4px;

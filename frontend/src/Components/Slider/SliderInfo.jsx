@@ -4,7 +4,6 @@ export const SliderInfo = ({name,title,content,discount,price,col,small})=>{
             position: 'absolute',
             top: '15%',
             textAlign: 'left',
-            width: 'auto',
             fontSize: '17px',
             width:'40%',
             height: 'auto',
@@ -31,8 +30,8 @@ export const SliderInfo = ({name,title,content,discount,price,col,small})=>{
                     padding: '10px 20px',
                     border: '1px solid transparent',
                     borderRadius: '3px',
-                    background:`${col=='black'?'black':'white'}`,
-                    color: `${col=='black'?'white':'black'}`,
+                    background:`${col==='black'?'black':'white'}`,
+                    color: `${col==='black'?'white':'black'}`,
                 }}>Buy Now</button>
                 <span style={{color:"#5c5959"}}>{small}</span>
             </div>

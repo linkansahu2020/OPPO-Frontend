@@ -1,6 +1,8 @@
 export const SingleElement = ({name,image})=>{
     return (
-        <div style={{
+        <div onClick={()=>{
+            window.location.href=`#${(name).toLowerCase()}`
+        }} style={{
             position: 'relative',
             textAlign: 'center',
             width:'24%'

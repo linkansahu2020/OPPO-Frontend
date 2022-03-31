@@ -1,8 +1,8 @@
 import {ProductCard} from '../ProductCard/ProductCard'
 
-export const Products = ({title,products})=>{
+export const Products = ({name,title,products})=>{
     return(
-        <div>
+        <div id={name}>
         <div style={{
                     display: 'flex',
                     justifyContent: 'space-between',

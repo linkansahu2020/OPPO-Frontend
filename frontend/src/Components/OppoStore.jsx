@@ -8,9 +8,12 @@ import { Elements } from './Elements/Elements'
 import { Slider } from './Slider/Slider'
 
 export const OppoStore = ()=>{
+    document.getElementsByTagName('title')[0].innerText = 'OPPO Store';
     const [smartphones,setSmartPhones] = useState([])
     const [audios,setAudios] = useState([])
     const [bundles,setBundles] = useState([])
+    const [accessories,setAccessories] = useState([])
+    const [watch,setWatch] = useState([])
     useEffect(()=>{
         getData()
     },[]);
@@ -18,6 +21,8 @@ export const OppoStore = ()=>{
         axios.get(`https://oppo-backend.herokuapp.com/products/Smartphones`).then(res=>setSmartPhones(res.data))
         axios.get(`https://oppo-backend.herokuapp.com/products/Audio`).then(res=>setAudios(res.data))
         axios.get(`https://oppo-backend.herokuapp.com/products/Bundles`).then(res=>setBundles(res.data))
+        axios.get(`https://oppo-backend.herokuapp.com/products/Accessories`).then(res=>setAccessories(res.data))
+        axios.get(`https://oppo-backend.herokuapp.com/products/Watch`).then(res=>setWatch(res.data))
     }
     const Main = style.div`
     height: 100%;
@@ -32,9 +37,11 @@ export const OppoStore = ()=>{
                 <div style={{display:'grid', rowGap: "130px"}}>
                     <OfferCard/>
                     <Membership/>
-                    <Products title={"Hot-selling Smartphones"} products={smartphones}/>
-                    <Products title={"OPPO Audio"} products={audios}/>
-                    <Products title={"Bundles"} products={bundles}/>
+                    <Products name={"phone"} title={"Hot-selling Smartphones"} products={smartphones}/>
+                    <Products name={"audio"} title={"OPPO Audio"} products={audios}/>
+                    <Products name={"bundles"} title={"Bundles"} products={bundles}/>
+                    <Products name={"accessories"} title={"Accessories"} products={accessories}/>
+                    <Products name={"wearables"} title={"Wearables"} products={watch}/>
                 </div>
             </Main>
         </div>
