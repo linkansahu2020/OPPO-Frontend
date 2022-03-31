@@ -44,7 +44,7 @@ export const CheckOutPage = () => {
 
   const evnthandler = (e) => {
     let { id, value } = e.target;
-    setInfo((pre) => ({ ...pre, [id]: value }));
+    setInfo((pre) => ({...pre, [id]: value }));
   };
 
   const handlechnager = (e) => {

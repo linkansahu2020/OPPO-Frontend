@@ -206,7 +206,7 @@ export const Payment = () => {
         </div>
         <div className="second_div_fo_pay_now_div">
           <div>
-            <h2>Order Total:1111</h2>
+            <h2>Order Total:₹1111</h2>
           </div>
           <div>
             <button className="Paynow_button">Pay now</button>
