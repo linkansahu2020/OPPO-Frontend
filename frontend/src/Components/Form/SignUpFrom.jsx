@@ -31,7 +31,7 @@ export const SignUp = ()=>{
             axios.post('https://oppo-backend.herokuapp.com/signup',user).then(res=>{
                 alert('Login Sucessfull')
             }).catch(err=>{
-                alert("Please try another Email Id")
+                alert("Please try with another Email Id")
             })
         }}>
             <h2>Create account</h2>

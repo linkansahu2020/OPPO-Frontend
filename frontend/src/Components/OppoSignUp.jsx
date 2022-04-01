@@ -1,8 +1,7 @@
 import styled from "styled-components"
 import { SignUp } from "./Form/SignUpFrom"
 import {FaCaretDown} from 'react-icons/fa'
-export const OppoSignIn = ()=>{
-    // const 
+export const OppoSignUp = ()=>{
     const Head = styled.div`
     padding: 1% 15%;
     display: flex;

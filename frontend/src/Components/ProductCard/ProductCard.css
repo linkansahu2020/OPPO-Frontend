@@ -1,5 +1,5 @@
 .main{
-    width: 24%;
+    width: 100%;
     background-color: white;
 }
 .image{
@@ -21,7 +21,7 @@
     margin-top: 10px;
     padding: 5px;
     font-size: 12px;
-    width: 8vmin;
+    width: 20%;
     color: #2ec84e;
     background-color: rgb(15, 143, 41, 0.12);
     border-radius: 4px;

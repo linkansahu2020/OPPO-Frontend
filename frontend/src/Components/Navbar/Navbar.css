@@ -1,93 +1,57 @@
-.linput{
-    width: 91%;
-    border: 1px solid transparent;
-    background-color: #f7f7f7;
-    font-size: 12px;
-    padding: 4%;
-}
-#vinput{
-    width: 60%;
-    border: 1px solid transparent;
-    background-color: #f7f7f7;
-    font-size: 12px;
-    padding: 4%;
-}
-#vdiv{
-    width: 100%;
+.navbar{
     display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.vbutton{
-    background-color: #2ec84e;
-    color: white;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    font-weight: bold;
-}
-#condition{
-    font-size: 13px;
-}
-.lsubmit{
-    padding: 10px 20px;
-    cursor: pointer;
-}
-.vcode{
-    background-color: #2ec84e;
-    color: white;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    font-weight: bold;
-    padding-top: 4%;
-    font-size: 13px;
-}
-input{
-    outline: none;
-    border-radius: 5px;
-}
-.l_signin{
     width: 100%;
-    padding: 12px 0px;
-    font-size: 15px;
+    justify-content: space-evenly;
+    border: 1px solid red;
 }
-/* body{
-    background-color: #f7f7f7;
-} */
-#other_way::after{
-    display: block;
-    content: '';
-    border-top: 1px solid rgba(0,0,0,0.2);
-    flex: 1 1;
-    height: 0px;
-    margin-top: 2%;
-    margin-left: 2%;
-}
-#other_way::before{
-    display: block;
-    content: '';
-    border-top: 1px solid rgba(0,0,0,0.2);
-    flex: 1 1;
-    height: 0px;
-    margin-top: 2%;
-    margin-right: 2%;
-}
-#other_way{
-    display: flex;
-    justify-content: space-between;
-    font-size: 13px;
-    color:rgba(0,0,0,0.7);
-}
-#l_google{
-    margin: 5% auto;
-    width: 30px;
-}
-#oppo_logo{
-    margin: 7% auto;
+#o_logo{
     width: 10.25rem;
     height: 1.6rem;
-    margin-bottom: 0.41667rem;
+    margin-top: 11%;
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAAAiCAMAAAAZIKdUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOVBMVEVHcEwzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM0rESPAAAAEnRSTlMAzw6B9m894GDA6RqRTKIptQUyJXn2AAADP0lEQVRYw+2Z65KjIBCFw/0ioPj+D7sGGkW5mB2Zqq2t8GeqxmPoj+ZAd/J6fT5m5pCm60qFMnJqaKRT4kYzSRM1Gjk2/1zzbExErKehpN8fLmgb/IUZOmsQw7vGvTX2heVFI0jB7aW61Twc2NC1GFqmx4HVkoqGsoQdYpRMVzQGnyaTH2geDl6ZImRpyoBoXYPmDKjxOYJnW0HVNZqP45FpmRSRlnPLTNo2ej6AEqQJms0D6S1+ACXIXQOrQPdkz3rXsKAhSbPKUTwWZpA4t1ScRk8nIJGZZrOUzoh2IJ0bAkt418LnwitnDTppno45hs785ZRYIqbPgIy/Wi9i4gzIXczgSUQIBD6GvlzOAM+iZsxxFwKnldWJ0bIDiJWaGIk5gExrByxn+VVDd83jBLViBVThE5CpaQI1xQmoGlLE2Jbfi3vN4xEiQh1WDkC6erBiCn6OQNX7JHKQ7TTtRI2aa/aXAzUTBEESAGpM5oJxQNvYM8FG6vjbTBEaAEQhC81AHADJzpmPDvjqPRcyDPA9DR0A1N4psGoLAPHOoS9SpdDzKZiysRsm0IwBmj8Ash2glCHWAaJ9oHkUUC9YB94RnUAIQKuOzyRk0cAW7mV6zDVUn8Rr2EaiY2YEvlDpjO8cHAFMdzQjLiLZvqNZ8pdYmyay6ZFq12NzejS177yZjirncEiDwq053F4piMrRMYl02qpm9YLRnhjX0sSaSA/pIWIeSqLYU4TZofRBBdGM9txB6SOKaKcsd3GNyk4Bq7Vj0x+5KGvn4hQkq99E0c5BTUmPmmivtgk+d6c6r4lYTfM6a55vOpQaYQ7zTNbRvNY8+iFt7K4x0Nos/twPUWchlZinxh7hU8Xb1zwnWo7eEi0KHX0neRUN3lujco3zRYO3gSO1oOO1BZ+P+RvNAB/Rbucca7lqf73v1ADkRE1DT97gH2gGfOlTfksiDsPE0geTAkkfZoilj2ei/P6jaOfuNSP2nXRZvMLwazWx/cPbPAXCWX+pzN/p4ibTaCdrO+kTzZA8WckIYZLjSnkEhBMHzVRpNWQyetTYzrp/ovm10au2a0D//PgCfYG+QF+g/xtouzDI3U848q2Zfz2UPz2AcJFc2usZAAAAAElFTkSuQmCC');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100% 100%;
+}
+#all_elementes{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .4%;
+    font-size: 17px;
+}
+#l_icons{
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .4%;
+    padding: 1% 2%;
+    cursor: pointer;
+}
+#all_elementes>div{
+    padding-top: 2%;
+    cursor: pointer;
+}
+#all_elementes>div:hover{
+    border-bottom: 2px solid #2ec84e;
+}
+#all_elements{
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+    display: flex;
+}
+#l_elements_name{
+    border-right: 1px solid rgb(170, 170, 170);
+    text-align: left;
+    width: 20%;
+}
+.single_element_name{
+    font-size: 20px;
+    margin-top: 6%;
+    color: rgb(122, 122, 122);
+    cursor: pointer;
+}
+.single_element_name:hover{
+    color: black;
 }

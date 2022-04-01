@@ -20,9 +20,8 @@ export const Products = ({name,title,products})=>{
                     }}>More</div>
                 </div>
                 <div style={{
-                    display: 'flex',
-                    flexWrap: 'wrap',
-                    justifyContent:'space-between',
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(4,1fr)',
                     rowGap:'40px',
                     columnGap: '15px'
                 }}>
