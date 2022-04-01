@@ -1,6 +1,7 @@
 import "./Payment.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useNavigate } from "react-router-dom";
 export const Payment = () => {
+  const navigate = useNavigate();
   return (
     <div className="Main_outer_div">
       <div className="header_div">
@@ -209,7 +210,14 @@ export const Payment = () => {
             <h2>Order Total:₹1111</h2>
           </div>
           <div>
-            <button className="Paynow_button">Pay now</button>
+            <button
+              onClick={() => {
+                navigate("/Paymentoption");
+              }}
+              className="Paynow_button"
+            >
+              Pay now
+            </button>
           </div>
         </div>
       </div>

@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main_payment_container_div {
+  /* border: 2px solid red; */
+  margin: auto;
+  display: flex;
+  margin-top: 45px;
+  width: 50%;
+  height: 500px;
+}
+.left_payment_div {
+  border-left: 6px solid #488cdb;
+  width: 50%;
+  flex: 0.8;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.right_payment_div {
+  /* border: 2px solid green; */
+  width: 50%;
+  flex: 1;
+  overflow-y: scroll;
+}
+.left_payment_div > div {
+  margin: 20px;
+}
+.left_top_div {
+  display: flex;
+  justify-content: space-between;
+}
+.left_top_div > button {
+  width: 80px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+}
+.icon_span {
+  margin: 10px;
+}
+
+.left_second_div > p {
+  font-size: 29px;
+  font-weight: 100;
+}
+.left_fourth_div > span {
+  font-size: x-small;
+}
+.left_subtotal_div {
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  justify-content: space-between;
+}
+.hide_div {
+  display: none;
+}
+.popup_subtotal {
+  background-color: transparent;
+  border: none;
+}
+.right_top_div {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.card_details {
+  border: 2px solid transparent;
+  background-color: #fafafa;
+  border-left: 5px solid #4689d7;
+  height: 400px;
+}
+.first_form_div {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  /* border: 2px solid green; */
+}
+.first_form_div > input {
+  width: 90%;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.second_form_div {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 15px;
+  /* border: 2px solid green; */
+}
+.second_form_div > div > input {
+  width: 90%;
+  height: 30px;
+  margin-top: 5px;
+}
+.check_box_div {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  /* border: 2px solid green; */
+}
+.sumbit_form_btn {
+  background-color: #4689d7;
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+.bottom_img_div {
+  /* border: 2px solid red; */
+  margin: auto;
+  width: 50%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom_img_div_left {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+  width: 20%;
+  /* border: 2px solid salmon; */
+}
+.bottom_img_div_left > h6 {
+  margin-top: 15px;
+}
+.bottom_img_div_right {
+  /* border: 2px solid green; */
+  margin-right: 50px;
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}

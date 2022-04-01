@@ -1,7 +1,7 @@
 import "../checkout.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import {useNavigate} from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 
 // console.log(num);
 export const CheckOutPage = () => {
@@ -17,7 +17,7 @@ export const CheckOutPage = () => {
   });
   const [cart_item, setCart_item] = useState([]);
   const [useraddress, setUseraddress] = useState([]);
-  const navigate=useNavigate();
+  const navigate = useNavigate();
 
   useEffect(() => {
     getCartdata();
@@ -44,7 +44,7 @@ export const CheckOutPage = () => {
 
   const evnthandler = (e) => {
     let { id, value } = e.target;
-    setInfo((pre) => ({...pre, [id]: value }));
+    setInfo((pre) => ({ ...pre, [id]: value }));
   };
 
   const handlechnager = (e) => {
@@ -275,9 +275,14 @@ export const CheckOutPage = () => {
             <h4>Save 0</h4>
           </div>
           <div>
-            <button onClick={()=>{
-              navigate("/payment")
-            }} className="order_butt">Place Order</button>
+            <button
+              onClick={() => {
+                navigate("/payment");
+              }}
+              className="order_butt"
+            >
+              Place Order
+            </button>
           </div>
         </div>
       </div>
