@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+     width: auto;
+    height:550px;
+   /* background-color: #c0a69a; */
+    
+    
+   
+}
+
+#st-box {
+    float:left;
+    margin-left:20px;
+}
+ 
+ #nd-box {
+    float:left;
+    
+    
+    margin-left:20px;
+}
+#rd-box {
+    float:right;
+   
+   
+}  
+h2 {
+   margin-left: 150px;
+    color:Black;
+}
+ .expimg{
+    
+    width: 400px;
+    height: 350px;
+  
+   padding: 5%;
+} 
+.learnbar{
+    height: 5px;
+    width: 80px;
+    background-color: black;
+}
+p{
+    color: black;
+}

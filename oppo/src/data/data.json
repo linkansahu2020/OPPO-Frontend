@@ -1,0 +1,262 @@
+{
+    "banner": {
+        "start": [
+            "https://image.oppo.com/content/dam/oppo/in/mkt/homepage/in-top-banner/enco-air2/v2/topbanner-pc.jpg.thumb.webp",
+            "https://image.oppo.com/content/dam/oppo/in/mkt/homepage/in-top-banner/reno7-series-5g/reno7-pro-5g-pc3.png.thumb.webp",
+            "https://image.oppo.com/content/dam/oppo/in/mkt/homepage/in-top-banner/watch-free/black_topbanner-pc.jpg.thumb.webp",
+            "https://image.oppo.com/content/dam/oppo/in/mkt/homepage/in-top-banner/k10/topbanner-pc-0329.jpg.thumb.webp",
+            "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/a96-en/topbanner/A96-topbanner-blue-pc-1.jpg.thumb.webp"
+            
+            
+        ],
+        "end": [
+              {
+                    "name": "MI 11X",
+                    "description": "What makes the Mi 11X a huge disruptor is its price tag. It comes with what we call “crazy Xiaomi pricing”",
+                    "source": "TechPP",
+                    "image": "https://i02.appmifile.com/708_operator_in/10/05/2021/2b7fc56c3b3c44f4b11bd9bd2b255749.jpg"
+              },
+              {
+                    "name": "MI 11X PRO",
+                    "description": "It is easily the most affordable device with a Snapdragon 888 chip and a 108-megapixel camera in the market right now",
+                    "source": "TechPP",
+                    "image": "https://i02.appmifile.com/191_operator_in/10/05/2021/4ccd175347800225dd6b47eb35166e2e.jpg"
+              },
+              {
+                    "name": "REDMI NOTE 10 PRO MAX",
+                    "description": "The Redmi Note 10 Pro Max’s macro camera captures the tiniest piece of details to stitch together some very good images.",
+                    "source": "India Today",
+                    "image": "https://i02.appmifile.com/52_operator_in/15/03/2021/7f91bdb2f227f8bd679fa96ac2a9fc1f.jpg"
+              },
+              {
+                    "name": "REDMI NOTE 10",
+                    "description": "The deep contrasts and the richness that AMOLED brings along add a much-needed dimension to the smartphone.",
+                    "source": "TechPP",
+                    "image": "https://i02.appmifile.com/107_operator_in/17/03/2021/fa9bab9cbad1629076b04a17a655559c.jpg"
+              },
+              {
+                    "name": "MI 10I",
+                    "description": "The Mi 10i clicks authentic, true-to-life photos with an abundance of details in every shot.",
+                    "source": "91Mobiles",
+                    "image": "https://i02.appmifile.com/85_operator_in/11/01/2021/b7600815ae26854c451a39ee88431098.jpg"
+              },
+              {
+                    "name": "MI QLED TV 4K",
+                    "description": "Redefining Value for Premium TVs",
+                    "image": "https://i02.appmifile.com/108_operator_in/13/01/2021/3bfe5123ede27524d616f0bdaf43945a.jpg"
+              },
+              {
+                    "name": "MI 10T PRO",
+                    "description": "Mi 10T Pro is a clear winner in the premium segment",
+                    "source": "FoneArena",
+                    "image": "https://i02.appmifile.com/843_operator_in/28/12/2020/226c73c386cf35e47fa0079b3534085f.jpg"
+              },
+              {
+                    "name": "REDMI 9 POWER",
+                    "description": "In under an hour, the phone was charged around 80 percent plus, which is more than enough battery for two days.",
+                    "source": "Indian Express",
+                    "image": "https://i02.appmifile.com/779_operator_in/28/12/2020/55bbda7ebbb47f674213dead3c0fefdf.jpg"
+              },
+              {
+                    "name": "MI SMART WATER PURIFIER",
+                    "description": "Mi Smart Water Purifier: The Epitome Of Minimalism",
+                    "source": "Mr.Phone",
+                    "image": "https://i01.appmifile.com/webfile/globalimg/in/cms/97E65ECC-E105-9A20-6BD7-8A3235104C57.jpg"
+              },
+              {
+                    "name": "MI SOUNDBAR",
+                    "description": "We Looked Hard, But There Really Are no Faults.",
+                    "source": "TechPP",
+                    "image": "https://i01.appmifile.com/webfile/globalimg/in/cms/40F52E34-A946-E8B3-29F2-BBE4A5C7BEEE.jpg"
+              }
+        ]
+
+  },
+  "footer": {
+      "SmartPhones": [
+            {
+                  "name": "OPPO Reno7 Pro 5G",
+                  "url": "https://www.oppo.com/in/smartphones/series-reno/reno7-pro-5g/"
+            },
+            {
+                  "name": "OPPO Reno7 5G",
+                  "url": "https://www.oppo.com/in/smartphones/series-reno/reno7-5g/"
+            },
+            {
+                  "name": "OPPO Reno6 Pro 5G",
+                  "url": "https://www.oppo.com/in/smartphones/series-reno/reno6-pro-5g/"
+            },
+            {
+                  "name": "OPPO Reno6 5G",
+                  "url": "https://www.mi.com/in/service/repair/"
+            },
+            {
+                  "name": "OPPO F19 Pro+ 5G",
+                  "url": "https://www.mi.com/in/service/warranty/"
+            },
+            {
+                  "name": "OPPO F19 Pro",
+                  "url": "https://www.mi.com/in/miexchange/"
+            },
+            {
+                  "name": "OPPO F19s",
+                  "url": "https://www.mi.com/in/bulkbuy/"
+            },
+            {
+                  "name": "OPPO A96",
+                  "url": "https://www.mi.com/in/service/userguide/"
+            },
+            {
+                  "name": "OPPO A76",
+                  "url": "https://www.mi.com/in/service/support/laptop-drivers.html"
+            },
+            {
+                  "name": "OPPO A55",
+                  "url": "https://www.mi.com/in/service/miphoneprotection/#miscreenprotect"
+            },
+            {
+                  "name": "OPPO A16e",
+                  "url": "https://www.mi.com/in/service/miextendedwarranty/"
+            }, {
+                  "name": "OPPO A16k",
+                  "url": "https://www.mi.com/in/service/miextendedwarranty/"
+            },
+            {
+                  "name": "OPPO K10",
+                  "url": "https://www.mi.com/in/service/miextendedwarranty/"
+            },
+            {
+                  "name": "See All Smartphones",
+                  "url": "https://www.mi.com/in/service/miextendedwarranty/"
+            }
+      ],
+      "IotProducts": [
+            {
+                  "name": "OPPO Enco Air2",
+                  "url": "https://www.mi.com/in/mi-10i/"
+            },
+            {
+                  "name": "OPPO Watch Free",
+                  "url": "https://in.event.mi.com/in/mi-10t-series"
+            },
+            {
+                  "name": "OPPO Enco M32",
+                  "url": "https://www.mi.com/in/mi-11-ultra/"
+            },
+            {
+                  "name": "OPPO Enco Buds",
+                  "url": "https://www.mi.com/in/mi-11x/"
+            },
+            {
+                  "name": "OPPO Band Style",
+                  "url": "https://www.mi.com/in/mi-11x-pro/"
+            },
+            {
+                  "name": "OPPO Enco X",
+                  "url": "https://www.mi.com/in/redmi-8/"
+            },
+            {
+                  "name": "OPPO Watch",
+                  "url": "https://www.mi.com/in/redmi-9/"
+            },
+            {
+                  "name": "OPPO Enco W51",
+                  "url": "https://www.mi.com/in/redmi-9-prime/"
+            },
+            {
+                  "name": "OPPO Enco W11",
+                  "url": "https://www.mi.com/in/redmi-9i/"
+            },
+            {
+                  "name": "OPPO Enco Free",
+                  "url": "https://www.mi.com/in/redmi-9a/"
+            },
+            {
+                  "name": "OPPO Enco W31",
+                  "url": "https://www.mi.com/in/redmi-note-10/"
+            },
+            {
+                  "name": "OPPO Enco M31",
+                  "url": "https://www.mi.com/in/redmi-note-10-pro/"
+            }
+           
+      ],
+      "Specialoffers": [
+            {
+                  "name": "Education Discount",
+                  "url": "https://www.mi.com/in/service/mihome/"
+            },
+            {
+                  "name": "Strike A Bargain",
+                  "url": "https://www.mi.com/in/service/authorized_stores/"
+            }
+      ],
+      "Support": [
+            {
+                  "name": "Contact Us",
+                  "url": "https://www.mi.com/in/about/"
+            },
+            {
+                  "name": "Service Center",
+                  "url": "https://www.mi.com/in/mediakit/"
+            },
+            {
+                  "name": "Warranty Check",
+                  "url": "https://www.mi.com/in/about/#culture"
+            },
+            {
+                  "name": "OPPO Update",
+                  "url": "https://www.mi.com/in/about/agreement/"
+            },
+            {
+                  "name": "Terms and Conditions",
+                  "url": "https://www.mi.com/in/about/privacy/"
+            },
+            {
+                  "name": "E-waste Management",
+                  "url": "https://www.mi.com/in/service/support/mideclare.html"
+            },
+            {
+                  "name": "Security Response Center",
+                  "url": "https://integrity.mi.com/global"
+            },
+            {
+                  "name": "Warranty Policy",
+                  "url": "https://www.mi.com/in/smartphone-quality/"
+            },
+            {
+                  "name": "Investor",
+                  "url": "https://www.mi.com/in/tv-quality/"
+            }
+      ],
+      "AboutOppo": [
+            {
+                  "name": "Our Story",
+                  "url": "https://in.event.mi.com/in/questionnaire/email_us"
+            },
+            {
+                  "name": "Technology",
+                  "url": "https://www.mi.com/in/about/#career"
+            },
+            {
+                  "name": "Newsroom",
+                  "url": "https://www.mi.com/in/about/#career"
+            },
+            {
+                  "name": "Campaign",
+                  "url": "https://www.mi.com/in/about/#career"
+            },
+            {
+                  "name": "Career",
+                  "url": "https://www.mi.com/in/about/#career"
+            }
+      ],
+      "OppoCommunity": [
+            {
+                  "name": "Our Story",
+                  "url": "https://in.event.mi.com/in/questionnaire/email_us"
+            }
+            
+      ]
+}
+}
