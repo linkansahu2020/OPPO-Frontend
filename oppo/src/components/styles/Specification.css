@@ -23,7 +23,7 @@ background-color: #fafafa;
 .table-row-light{
     background-color: #eef7f0;
 }
-h2{
+#P-specification{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 3%;
@@ -33,7 +33,7 @@ h2{
     border: 0.5px 
     solid #c6c8ca;
 }
-h5{
+#learn-tag{
     text-align: center;
     padding: 2%;
     font-family: Arial, Helvetica, sans-serif;
@@ -50,5 +50,12 @@ h5{
   .up {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
+  }
+  .img-specs{
+      width: 81%;
+  }
+  .All-img-spec{
+      margin-top: 100px;
+      text-align: center;
   }
   

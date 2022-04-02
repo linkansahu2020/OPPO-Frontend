@@ -5,7 +5,7 @@ const Specifiaction = () => {
       <div>
        <br/>
     <div className='specification-table'>
-        <h2>Product Specifications</h2>
+        <h2 id='P-specification'>Product Specifications</h2>
         <table>
             <tr className='table-row'>
                 <td>Screen size</td>
@@ -45,8 +45,50 @@ const Specifiaction = () => {
             </tr>
             
         </table>
-          <h5>Learn Enough     <i className='arrow up'></i></h5>
+          <h5 id="learn-tag">Learn Enough     <i className='arrow up'></i></h5>
+          <div className='All-img-spec'>
+              <div>
+                  <img className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202111/22/gZNwMxKZU7geFhDl.png' alt=''></img>
+              </div>
+              <div>
+              <img  className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202110/25/OeIua06WbziQ04Vg.jpg' alt=''></img>
+              </div>
+              <div>
+                  <img  className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202110/25/A7Jn2ISxMVBw3YC8.jpg' alt=''></img>
+              </div>
+              <div>
+              <img  className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202110/25/EP1MinBOOstzIvFm.jpg' alt=''></img>
+              </div>
+              <div>
+              <img  className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202110/25/hFsbLbNnFesKTql7.jpg' alt="" ></img>
+              </div>
+              <div>
+              <img  className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202110/25/rf9PAnx4OQmPDZoj.jpg' alt=''></img>
+              </div>
+              <div>
+              <img  className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202110/25/rf9PAnx4OQmPDZoj.jpg' alt=''></img>
+              </div>
+              <div>
+              <img  className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202110/25/8tsQMkJzvOPYJfWv.jpg' alt=''></img>
+              </div>
+              <div>
+              <img  className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202110/25/da8WBZHlNj0uByq3.jpg' alt=''></img>
+              </div>
+              <div>
+              <img  className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202110/25/wMHIxwGn9vfxMv96.jpg' alt=''></img>
+              </div>
+              <div>
+              <img  className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202110/25/wMHIxwGn9vfxMv96.jpg' alt=''></img>
+              </div>
+              <div>
+              <img  className='img-specs' src='https://opsg-img-cdn-gl.heytapimg.com/epb/202110/25/HHvvuHqFcZjX19g9.jpg' alt=''></img>
+              </div>
+          </div>
+
+
+
     </div>
+
     </div>
   )
 }
