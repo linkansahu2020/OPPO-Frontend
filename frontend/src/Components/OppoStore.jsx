@@ -6,6 +6,8 @@ import { Membership } from './Membership/Membership'
 import { OfferCard } from './OfferCard/OfferCard'
 import { Elements } from './Elements/Elements'
 import { Slider } from './Slider/Slider'
+import { Footer } from './Footer/Footer'
+import Navbar from './Navbar/Navbar'
 
 export const OppoStore = ()=>{
     document.getElementsByTagName('title')[0].innerText = 'OPPO Store';
@@ -28,9 +30,11 @@ export const OppoStore = ()=>{
     height: 100%;
     width: 68%;
     margin: auto;
+    margin-bottom: 1.5%;
     `
     return(
-        <div style={{background: "#fafafa"}}>
+        <div style={{background: "#fafafa",marginTop: '60px'}}>
+            <Navbar/>
             <Slider/>
             <Main>
                 <Elements/>
@@ -44,6 +48,7 @@ export const OppoStore = ()=>{
                     <Products name={"wearables"} title={"Wearables"} products={watch}/>
                 </div>
             </Main>
+            <Footer/>
         </div>
     )
 }

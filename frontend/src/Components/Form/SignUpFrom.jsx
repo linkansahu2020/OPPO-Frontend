@@ -17,6 +17,7 @@ export const SignUp = ()=>{
     const [myOtp,setMyOtp] = useState(null)
     const [visible,setVisible] = useState(false)
     document.getElementsByTagName('title')[0].innerText = 'Create Account';
+    document.getElementsByTagName('body')[0].style.background = 'white';
 
     const handleChange = (event)=>{
         setUser({...user,[event.target.id]:event.target.value})

@@ -27,12 +27,16 @@ export const SignIn = ()=>{
     }
     return(
         <>
-        <div id="oppo_logo"></div>
+        <div id="oppo_logo" onClick={()=>{
+            window.location.href = '/';
+        }}></div>
         <span style={{fontSize:'13px'}}>Sign in with a HeyTap Account to enjoy more services</span>
         <Form onSubmit={(event)=>{
             event.preventDefault();
             axios.post('https://oppo-backend.herokuapp.com/login',user).then(res=>{
                 localStorage.setItem('user',JSON.stringify(res.data));
+                alert('Login Successfull');
+                window.location.href='/';
             }).catch(err=>{
                 alert('Invalid Email id or Password')
             })

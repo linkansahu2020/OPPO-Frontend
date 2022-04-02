@@ -1,0 +1,24 @@
+#main_div{
+    width: 65%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_smartphones{
+    line-height: 9px;
+    text-align: left;
+}
+.all_name_link{
+    font-size: 13px;
+    color:#898989;
+    cursor: pointer;
+}
+#contacts_div{
+    width: 65%;
+    margin: auto;
+    margin-top: 2%;
+}
+hr{
+    border: .5px solid #898989;
+}
