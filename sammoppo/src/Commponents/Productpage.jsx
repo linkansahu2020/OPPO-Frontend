@@ -32,19 +32,31 @@ export const ProductPage = () => {
   // console.log(product);
   // console.log(bundles, "bundle");
   return (
-    <div className="main_productt_div">
+    <div id="main_page" className="main_productt_div">
       <div className="product_header_div">
         <div>
           <p
             onClick={() => {
-              window.location.href = "#come_here";
+              window.location.href = "#main_page";
             }}
           >
             Purchase
           </p>
 
-          <p>Specs</p>
-          <p>Heighlight</p>
+          <p
+            onClick={() => {
+              window.location.href = "#come_here";
+            }}
+          >
+            Specs
+          </p>
+          <p
+            onClick={() => {
+              window.location.href = "#prince_page";
+            }}
+          >
+            Heighlight
+          </p>
         </div>
       </div>
       <div className="main_display_div">
@@ -405,7 +417,7 @@ export const ProductPage = () => {
           <h5 id="learn-tag">
             Learn Enough <i className="arrow up"></i>
           </h5>
-          <div className="All-img-spec">
+          <div id="prince_page" className="All-img-spec">
             <div>
               <img
                 className="img-specs"
