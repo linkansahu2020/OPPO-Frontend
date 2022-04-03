@@ -3,6 +3,7 @@ import axios from 'axios';
 import './SignUpFrom.css'
 import { FaRegEyeSlash,FaRegEye } from "react-icons/fa";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 const Form = styled.form`
 width: 22%;
 margin: 7% auto;
@@ -22,6 +23,7 @@ export const SignUp = ()=>{
     const handleChange = (event)=>{
         setUser({...user,[event.target.id]:event.target.value})
     }
+    const navigate = useNavigate()
     return(
         <Form onSubmit={(event)=>{
             event.preventDefault();
@@ -30,7 +32,8 @@ export const SignUp = ()=>{
                 return;
             }
             axios.post('https://oppo-backend.herokuapp.com/signup',user).then(res=>{
-                alert('Login Sucessfull')
+                alert('Account is Created')
+                navigate('/signin')
             }).catch(err=>{
                 alert("Please try with another Email Id")
             })

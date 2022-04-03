@@ -76,6 +76,7 @@
     height: 900px;
     overflow: scroll;
     -ms-overflow-style: none;
+    text-align: left;
   }
   .mobile_discrip_div::-webkit-scrollbar {
     display: none;
@@ -96,13 +97,14 @@
     margin: auto;
     overflow: auto;
     white-space: nowrap;
-    height: 70px;
+    height: 90px;
     margin-top: 60px;
     scrollbar-width: none;
     -ms-overflow-style: none;
   }
   .extra_demo_img > span > img {
     margin: 5px;
+    object-fit: cover;
     border: 1px solid #e2dadb;
   }
   .extra_demo_img::-webkit-scrollbar {
@@ -192,6 +194,7 @@
     background-color: #f7f7f7;
     margin: 25px 0px 0px 50px;
     height: 80px;
+    padding-bottom: 2%;
   }
   .insta_discount_img_div {
     /* border: 2px solid yellow; */
@@ -232,6 +235,7 @@
     display: inline-block;
     margin: 10px;
     border-radius: 5px;
+    text-align: center;
   }
   .first_colr {
     /* border: 2px solid red; */
@@ -242,9 +246,9 @@
     margin-top: 20%;
     border-radius: 50%;
   }
-  .color_boxs_div > div > p {
-    margin: 10px 0px 0px 20px;
-  }
+  /* .color_boxs_div > div > p { */
+    /* margin: 10px 0px 0px 20px; */
+  /* } */
   .second_colr {
     background-color: #3ff2fe;
     width: 30px;
@@ -253,9 +257,9 @@
     margin-top: 20%;
     border-radius: 50%;
   }
-  .color_boxs_div > div > div > p {
-    margin: 10px 0px 0px 20px;
-  }
+  /* .color_boxs_div > div > div > p { */
+    /* margin: 10px 0px 0px 20px; */
+  /* } */
   .storage_one,
   .storage_two {
     padding: 25px 10px 20px 10px;
@@ -286,7 +290,7 @@
   }
   
   .upper_div > div > span {
-    font-size: x-small;
+    font-size: 13px;
     line-height: 24px;
     white-space: pre-line;
   }
@@ -399,3 +403,4 @@
     margin-top: 100px;
     text-align: center;
   }
+  

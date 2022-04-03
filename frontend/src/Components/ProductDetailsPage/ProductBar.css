@@ -1,0 +1,45 @@
+.product-common-bar{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    background-color: #fafafa;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding: .5% 0px;
+}
+.floor{
+display: flex;
+padding-right:5% ;
+}
+
+.btn-box{
+    display: flex;
+}
+ #st-btn{
+    color:white;
+background-color: black;
+border: 1px solid transparent;
+font-weight: bold;
+height: 50px;
+    width: 200px;
+    font-size: 16px;
+}
+#nd-btn{
+    color: white;
+background-color: #2ec84e;
+border: 1px solid transparent;
+font-weight: bold;
+height: 50px;
+    width: 200px;
+    font-size: 16px;
+} 
+.introduce-right-top{
+    padding-right: 50px;
+    line-height: 25px;
+}
+.span-tag{
+    margin-bottom: 25px;
+    color: rgb(186, 186, 186)
+}

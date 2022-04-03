@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import styled from "styled-components"
 import { FiSearch } from "react-icons/fi";
-import { FaUserCircle,FaAngleRight } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
 
 // IoBagHandleOutline
 import { IoBagHandleOutline,IoPersonCircleOutline, } from "react-icons/io5";
@@ -160,7 +160,7 @@ const Navbar = () =>{
         </CatsType>
         <CatsType>
         <div>
-        <Link to={'./store'} style={{textDecoration:'none',color:'black'}}>
+        <Link to={'/store'} style={{textDecoration:'none',color:'black'}}>
             <p>Store</p>
         </Link>
         </div>
@@ -222,6 +222,7 @@ const Navbar = () =>{
                                 <div onClick={()=>{
                                     localStorage.setItem('user',null);
                                     dispatch(addUser(null))
+                                    window.location.href='/';
                                 }}>
                                     <p>SignOut</p>
                                 </div>

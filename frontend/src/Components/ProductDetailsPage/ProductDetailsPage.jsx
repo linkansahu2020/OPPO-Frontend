@@ -1,19 +1,20 @@
 import './ProductDetailsPage.css'
 import { FaAngleRight } from "react-icons/fa";
 import axios from "axios";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Navbar from '../Navbar/Navbar';
 import { Footer } from '../Footer/Footer';
+import { ProductBar } from './ProductBar';
 export const ProductDetalisPage = () => {
   const [product, setProduct] = useState([]);
   const [bundles, setBundles] = useState([]);
-  const {category,id} = useParams()
+  const {id} = useParams()
 
   useEffect(() => {
     getmobile();
     getBundel();
-  }, []);
+  },[]);
 
   const getmobile = () => {
     axios
@@ -75,14 +76,14 @@ export const ProductDetalisPage = () => {
               <img
                 src="https://opsg-img-cdn-gl.heytapimg.com/epb/202111/10/6u0rRaBiQiNQcPI5.jpg?x-amz-process=image/resize,m_lfit,h_626,w_626"
                 alt=""
-                width={"20%"}
+                width={"10%"}
                 height={"70px"}
               />{" "}
             </span>
             <span>
               <img
                 src="https://opsg-img-cdn-gl.heytapimg.com/epb/202203/11/A1I8USaPaQccncdn.jpg"
-                width={"20%"}
+                width={"10%"}
                 height={"70px"}
                 alt=""
               />
@@ -90,7 +91,7 @@ export const ProductDetalisPage = () => {
             <span>
               <img
                 src="https://opsg-img-cdn-gl.heytapimg.com/epb/202203/11/LryjHkZDaVeOzrDI.jpg"
-                width={"20%"}
+                width={"10%"}
                 height={"70px"}
                 alt=""
               />
@@ -99,14 +100,14 @@ export const ProductDetalisPage = () => {
               <img
                 src="https://opsg-img-cdn-gl.heytapimg.com/epb/202203/11/lTNEQtfW0wFTqkMw.jpg"
                 alt=""
-                width={"20%"}
+                width={"10%"}
                 height={"70px"}
               />
             </span>
             <span>
               <img
                 src="https://opsg-img-cdn-gl.heytapimg.com/epb/202203/11/jngMFXFMArOVudYs.jpg"
-                width={"20%"}
+                width={"10%"}
                 height={"70px"}
                 alt=""
               />
@@ -115,7 +116,7 @@ export const ProductDetalisPage = () => {
               <img
                 src="https://opsg-img-cdn-gl.heytapimg.com/epb/202203/11/2qR0DoyqZel4Lghb.jpg"
                 alt=""
-                width={"20%"}
+                width={"10%"}
                 height={"70px"}
               />
             </span>
@@ -179,9 +180,9 @@ export const ProductDetalisPage = () => {
             </div>
             {/* price block */}
             <div className="mobile_price_tag_div">
-              <h2>{`₹${product.price}`}</h2>
+              <h2>{`₹${Math.floor(product.price-(product.price*(product.offer/100)))}`}</h2>
               <p>
-                <s>₹25000</s>
+                <s>₹{product.price}</s>
               </p>
             </div>
             <br />
@@ -511,6 +512,7 @@ export const ProductDetalisPage = () => {
       </div>
     </div>
     <Footer/>
-      </>
+    <ProductBar key={id} price={Math.floor(product.price-(product.price*(product.offer/100)))} id={id}/>
+    </>
   );
 };

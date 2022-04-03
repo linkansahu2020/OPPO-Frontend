@@ -1,0 +1,128 @@
+
+  .main_payment_container_div {
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    margin-top: 45px;
+    width: 50%;
+    height: 500px;
+    text-align: left;
+  }
+  .left_payment_div {
+    border-left: 6px solid #488cdb;
+    width: 50%;
+    flex: 0.8;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .right_payment_div {
+    /* border: 2px solid green; */
+    width: 50%;
+    flex: 1;
+    overflow-y: scroll;
+  }
+  .left_payment_div > div {
+    margin: 20px;
+  }
+  .left_top_div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .left_top_div > button {
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+  }
+  .icon_span {
+    margin: 10px;
+  }
+  
+  .left_second_div > p {
+    font-size: 29px;
+    font-weight: 100;
+  }
+  .left_fourth_div > span {
+    font-size: x-small;
+  }
+  .left_subtotal_div {
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .hide_div {
+    display: none;
+  }
+  .popup_subtotal {
+    background-color: transparent;
+    border: none;
+  }
+  .right_top_div {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+  }
+  .payment_card_div {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+  }
+  .ul_list_paymnet {
+    /* border: 2px solid black; */
+    list-style: none;
+  }
+  .firts_li {
+    margin-top: 15px;
+    /* border: 2px solid blue; */
+    margin-bottom: 35px;
+    cursor: pointer;
+  }
+  
+  .img_ul_li {
+    margin: 20px;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    /* padding: 40px; */
+  }
+  .small_li_ {
+    margin-left: 60px;
+  }
+  .icon_li {
+    margin-left: 23px;
+  }
+  .icon_li2 {
+    margin-left: 205px;
+  }
+  .icon_li3 {
+    margin-left: 55px;
+  }
+  .icon_li4 {
+    margin-left: 100px;
+  }
+  .bottom_img_div {
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 50%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom_img_div_left {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    width: 20%;
+    /* border: 2px solid salmon; */
+  }
+  .bottom_img_div_left > h6 {
+    margin-top: 15px;
+  }
+  .bottom_img_div_right {
+    /* border: 2px solid green; */
+    margin-right: 50px;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+  }
