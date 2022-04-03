@@ -524,9 +524,9 @@ export const ProductPage = () => {
           {/*  next page button*/}
           <button
             onClick={() => {
-              <Link to={`/checkoutpage`}></Link>;
+              <Link to={`/checkoutpage/:id`}></Link>;
 
-              // navigate("/checkoutpage/:id");
+              navigate("/checkoutpage");
             }}
           >
             <h3>Buy Now</h3>
