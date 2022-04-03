@@ -3,10 +3,13 @@ import { FaAngleRight } from "react-icons/fa";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 export const ProductPage = () => {
   const [product, setProduct] = useState([]);
   const [bundles, setBundles] = useState([]);
   const id = "6242d8a28edb33dcb1c9d03c";
+  console.log(id, "id");
+  const navigate = useNavigate();
 
   useEffect(() => {
     getmobile();
@@ -176,6 +179,7 @@ export const ProductPage = () => {
             {/* price block */}
             <div className="mobile_price_tag_div">
               <h2>{`₹${product.price}`}</h2>
+
               <p>
                 <s>₹25000</s>
               </p>
@@ -503,6 +507,30 @@ export const ProductPage = () => {
               ></img>
             </div>
           </div>
+        </div>
+      </div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A impedit
+        dolorem iure aliquid, enim dolorum quae quod numquam, officia, aliquam
+        qui modi doloremque ut corrupti quo labore atque distinctio veniam?
+      </p>
+      {/* footrs total navbar */}
+      <div className="product_footr_total_navbra">
+        <div className="total_amont_div">
+          <h1>{`₹${product.price}`}</h1>
+          <p>(incl.of all taxes)</p>
+        </div>
+        <div className="paynow_btton">
+          {/*  next page button*/}
+          <button
+            onClick={() => {
+              <Link to={`/checkoutpage`}></Link>;
+
+              // navigate("/checkoutpage/:id");
+            }}
+          >
+            <h3>Buy Now</h3>
+          </button>
         </div>
       </div>
     </div>

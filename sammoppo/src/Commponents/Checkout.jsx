@@ -1,11 +1,13 @@
 import "../checkout.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 // console.log(num);
 export const CheckOutPage = () => {
   // const [num, setNum] = useState(0);
+  const { id } = useParams();
+  console.log(id, "id from pre page");
   const [info, setInfo] = useState({
     Name: "",
     Phonenumber: "",

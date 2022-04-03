@@ -399,3 +399,40 @@ tr {
   margin-top: 100px;
   text-align: center;
 }
+.product_footr_total_navbra {
+  border-top: 1 px solid #e3dadb;
+  width: 100;
+  margin-top: 30px;
+  background-color: #fafafa;
+  height: 70px;
+  display: flex;
+  justify-content: right;
+}
+
+.total_amont_div {
+  height: 50px;
+  width: 15%;
+  /* background-color: #3ff2fe; */
+  margin: 10px;
+}
+.total_amont_div > h1,
+p {
+  text-align: center;
+}
+.paynow_btton {
+  height: 50px;
+  width: 15%;
+
+  margin: 2px;
+  margin-top: 8px;
+  text-align: center;
+  margin-right: 140px;
+}
+.paynow_btton > button {
+  width: 100%;
+  height: 100%;
+  background-color: #68c854;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+}

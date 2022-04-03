@@ -8,11 +8,11 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<CheckOutPage />} />
+        <Route path="/" element={<ProductPage />} />
+        <Route path="/checkoutpage" element={<CheckOutPage />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/Paymentoption" element={<PaymentOpt />} />
         <Route path="/carddetails" element={<CardDetails />} />
-        <Route path="/productPage" element={<ProductPage />} />
       </Routes>
     </div>
   );
