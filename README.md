@@ -1,5 +1,5 @@
 # OPPO-Clone
-<p>This is the project at Masai School construct week after learning HTML, CSS, JavaScript, NodeJS & ReactJS. Here is the link of our app which is live on VERCEL.</p>
+<p>This is the project at Masai School construct week after learning HTML, CSS, JavaScript, NodeJS & ReactJS. Here is the <a href="https://oppo-clone.vercel.app/">link of our app</a> which is live on VERCEL.</p>
 <h3>Contributor</h3>
 <ol>
 <li>Linkan Kumar Sahu</li>
