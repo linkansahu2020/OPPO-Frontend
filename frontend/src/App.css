@@ -4,6 +4,7 @@
 }
 html {
   scroll-behavior: smooth;
+  /* font: optional; */
 }
 
 .App-logo {
